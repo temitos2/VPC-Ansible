@@ -1,0 +1,15 @@
+---
+
+# AWS Credentials
+aws_access_key: "AKIAISLWYP3VZ3MQV6MA"
+aws_secret_key: "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"
+aws_region:     "us-east-1"
+
+# Cloudformation Parameters
+StackName: "ansible-clouformation"
+EnvironmentName: "dev"
+ImageId: "ami-14c5486b"
+InstanceType: "t2.micro"
+PrivateSubnet1CIDR: "10.192.20.0/24"
+PublicSubnet1CIDR: "10.192.10.0/24"
+VpcCIDR: "10.192.0.0/16"
